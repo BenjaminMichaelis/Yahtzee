@@ -13,7 +13,7 @@ int main(void)
     {
         do
         {
-            //TODO: Implement do while inside switch with default statements
+            //TODO: Implement do while loop inside switch with default statements
             option = runmenu();//get user input from menu
         } while (option < 1 || option > 3);
         switch (option)
